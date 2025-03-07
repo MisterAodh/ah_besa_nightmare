@@ -1,0 +1,7 @@
+BESA Generic Data
+nChannels = 12
+nSamples = 333
+Prestimulus = 100
+sRate = 500
+format = float
+file = EEG_Output.dat

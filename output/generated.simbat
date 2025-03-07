@@ -1,6 +1,6 @@
 Logging off
 SensorsLoad "C:/Users/PHELANLE/PycharmProjects/Testing_batch/sensors.elp"
-Pause "Please click OK on the Define Reference dialog"
+
 Settings samples=333
 Settings interval=2.0
 Settings baselinesamples=50
