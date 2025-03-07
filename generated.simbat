@@ -1,0 +1,9 @@
+Logging off
+HeadModel default
+SensorsLoad "C:\Users\PHELANLE\PycharmProjects\Testing_batch\converted.elp"
+Settings samples=250
+Settings interval=2.0
+Settings baselinesamples=50
+ModelClear noquery
+ModelLoad "C:/Users/PHELANLE/PycharmProjects/Testing_batch/P1_NormalVision.mod"
+DataSave "EEG_Output" gen
