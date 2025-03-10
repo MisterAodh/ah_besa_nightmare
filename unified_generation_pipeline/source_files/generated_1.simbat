@@ -1,0 +1,14 @@
+Logging off
+SensorsLoad "C:/Users/PHELANLE/PycharmProjects/Testing_batch/unified_generation_pipeline/source_files/sensors.elp"
+Settings samples=333
+Settings interval=2.0
+Settings baselinesamples=50
+HeadModel default
+Constraints x=-1 1 y=-1 1 z=0 1 ecc=0.1 0.9
+For var=i start=1 end=3 step=1
+   ModelClear noquery
+  ModelLoad "C:/Users/PHELANLE/PycharmProjects/Testing_batch/unified_generation_pipeline/temporary_outputs\P1_NormalVision.mod"
+  Settings currentrawfolder="C:/Users/PHELANLE/PycharmProjects/Testing_batch/unified_generation_pipeline/temporary_outputs"
+  DataSave "temp_%i%" gen
+EndFor
+ModelSave "C:/Users/PHELANLE/PycharmProjects/Testing_batch/unified_generation_pipeline/temporary_outputs\saved_model"
